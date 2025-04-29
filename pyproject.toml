@@ -19,5 +19,5 @@ dev = 'python manage.py runserver'
 makemigrations = 'python manage.py makemigrations'
 createsuperuser = 'python manage.py createsuperuser'
 migrate = 'python manage.py migrate'
-image_app = "python manage.py graph_models core --pygraphviz -o garagem.png"
+image_app = "python manage.py graph_models core --pygraphviz -o core.png"
 image_prj = "python manage.py graph_models -a --pygraphviz -o garagem.png"
